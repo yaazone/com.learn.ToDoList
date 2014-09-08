@@ -10,5 +10,11 @@
 
 @interface XYZToDoList : UITableViewController
 
+@property NSMutableArray *toDoItems;
 
+
+- (void)viewDidLoad;
+- (void)loadInitalData;
+//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView;
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
 @end

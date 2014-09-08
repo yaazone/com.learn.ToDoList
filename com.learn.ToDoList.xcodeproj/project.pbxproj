@@ -22,6 +22,7 @@
 		120B6DAC19BA33FE001252AA /* XYZAddToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 120B6DAB19BA33FE001252AA /* XYZAddToDoItem.m */; };
 		120B6DB519BA33FE001252AA /* XYZToDoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 120B6DB419BA33FE001252AA /* XYZToDoList.m */; };
 		127BD72619B2FCE70061A217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127BD72519B2FCE70061A217 /* Main.storyboard */; };
+		12BF6B5619BC83DE00BB118A /* XYZToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BF6B5519BC83DE00BB118A /* XYZToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		120B6DB319BA33FE001252AA /* XYZToDoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoList.h; sourceTree = "<group>"; };
 		120B6DB419BA33FE001252AA /* XYZToDoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoList.m; sourceTree = "<group>"; };
 		127BD72519B2FCE70061A217 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		12BF6B5419BC83DE00BB118A /* XYZToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoItem.h; sourceTree = "<group>"; };
+		12BF6B5519BC83DE00BB118A /* XYZToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 		12038D5919B2F5B700CB2A51 = {
 			isa = PBXGroup;
 			children = (
+				12BF6B5419BC83DE00BB118A /* XYZToDoItem.h */,
+				12BF6B5519BC83DE00BB118A /* XYZToDoItem.m */,
 				120B6DB319BA33FE001252AA /* XYZToDoList.h */,
 				120B6DB419BA33FE001252AA /* XYZToDoList.m */,
 				120B6DAA19BA33FE001252AA /* XYZAddToDoItem.h */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				120B6DAC19BA33FE001252AA /* XYZAddToDoItem.m in Sources */,
+				12BF6B5619BC83DE00BB118A /* XYZToDoItem.m in Sources */,
 				120B6DB519BA33FE001252AA /* XYZToDoList.m in Sources */,
 				12038D7619B2F5B800CB2A51 /* AppDelegate.m in Sources */,
 				12038D7219B2F5B700CB2A51 /* main.m in Sources */,
