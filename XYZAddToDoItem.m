@@ -22,7 +22,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     //wenn man vom done Button kommt, dann ist das erfüllt
     if (sender != self.doneButton) {
-        return;
+        return; 
     }
     if (self.textField.text.length > 0) {
         XYZToDoItem *item1 = [[XYZToDoItem alloc] init];
